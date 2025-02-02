@@ -19,10 +19,9 @@ footer {
   color: midnightblue;
 }
 
-.tile-image {
-  height: 200px;
-  float: left;
-  margin-right: 50px;
+/* Solucion */
+.creative {
+  color: midnightblue;
 }
 
 .card {
@@ -37,18 +36,20 @@ footer {
   float: right;
 }
 
-.creative {
-  color: midnightblue;
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
 }
 
 @media (max-width: 680px) {
-  .logo {
-    width: 100px;
-  }
-
   h1 {
     font-size: 3.5rem;
     text-align: center;
+  }
+
+  .logo {
+    width: 100px;
   }
 
   .card {
