@@ -1,1 +1,26 @@
 /* Write your code here: */
+
+/* Selector de grupo = Los valores se aplican a todos los elementos */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Selector de hijo = Los valores se aplican a los hijos directos (Un solo nivel) */
+.box > p {
+    color: firebrick;
+}
+
+/* Selector de descendencia = Los valores se aplican a los descendientes del selector de la izquierda (No importa el nivel de profundidad) */
+.box li {
+    color: blue;
+}
+
+/* Selector en cadena = Los valores se aplican a todos los elementos que cumplan con los selectores especificados */
+li.done {
+    color: seagreen;
+}
+
+/* Combinando selectores */
+ul p.done {
+    font-size: 0.5rem;
+}
